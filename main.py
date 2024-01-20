@@ -1,13 +1,11 @@
 import asyncio
 import logging
 
-from aiogram import Bot, types, F
+from aiogram import Bot
 from aiogram import Dispatcher
 
-from handlers import user_commands, echo, uploader
-
 import config
-
+from handlers import user_commands, echo, uploader
 
 dp = Dispatcher()
 bot = Bot(token=config.TOKEN)

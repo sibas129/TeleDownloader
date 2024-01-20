@@ -1,8 +1,5 @@
-import random
-
-from aiogram import Router, Bot, types
-from aiogram.types import Message
-from aiogram.filters import Command, CommandObject, CommandStart
+from aiogram import Router, types
+from aiogram.filters import Command, CommandStart
 
 # from keyboards import reply
 
