@@ -5,7 +5,7 @@ from aiogram.types import (
 
 main_kb = ReplyKeyboardMarkup(
     keyboard=[
-        [KeyboardButton(text="Help")],
+        [KeyboardButton(text="/help")],
     ],
     resize_keyboard=True,
     one_time_keyboard=True,
